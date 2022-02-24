@@ -1,11 +1,13 @@
+import { Fragment, useState } from 'react';
 
-
-function App() {
+const App = () => {
+  const [checked, setChecked] = useState(false);
   return (
-    <div className="App">
-
-    </div>
+    <Fragment>
+      <h1>Checkbox Journey</h1>
+      <div className='container'></div>
+    </Fragment>
   );
-}
+};
 
 export default App;
